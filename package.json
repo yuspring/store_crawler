@@ -1,0 +1,28 @@
+{
+  "name": "store_crawler",
+  "version": "1.0.0",
+  "description": "store_crawler",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "711": "node ./function/7-11.js",
+    "FM": "node ./function/FM.js",
+    "OK": "node ./function/OK.js",
+    "hilife": "node ./function/hilife.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.12",
+    "firebase": "^8.10.1",
+    "firebase-admin": "^11.0.1",
+    "firestore": "^1.1.6",
+    "qs": "^6.11.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
