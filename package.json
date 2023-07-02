@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon index.js",
     "711": "node ./function/7-11.js",
+    "dev": "nodemon index.js",
     "FM": "node ./function/FM.js",
     "OK": "node ./function/OK.js",
     "hilife": "node ./function/hilife.js"

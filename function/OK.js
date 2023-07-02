@@ -35,14 +35,12 @@ async function get_OK_store() {
 
 
     for (let id of Store) {
-        axios({
-            method: 'get', url: _urlshop,
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
-            },
-            data: qs.stringify({
-                'id': id
-            })
+        await axios({
+            method: 'get',
+            url: _urlshop,
+            params: {
+                id
+            }
         }).then(res => {
             const $ = cheerio.load(res.data);
             let text = $("html body").text()
